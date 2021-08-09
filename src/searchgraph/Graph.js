@@ -150,9 +150,9 @@ mergeSort() {
               <div className='container'>
                 <a className="logo" href="#">Algorithm<span>Compare</span></a>
                 <img id="mobile-cta" className="mobile-menu" src={menu} alt="Open Navigation"/>
-                <nav>
+                <nav style={{marginLeft:'20px'}}>
                  <ul className="primary-nav">
-                    <li className="current"><a >Sorting</a></li>
+                    <li  className="current"><a >Sorting</a></li>
                     <li><a href="/path">PathFinding</a></li>
                     <li><a >Recursion</a></li>
                 </ul>

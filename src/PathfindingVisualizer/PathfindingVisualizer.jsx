@@ -179,7 +179,7 @@ export default class PathfindingVisualizer extends Component {
               <div className='container'>
                 <a className="logo" >Algorithm<span>Compare</span></a>
                 <img id="mobile-cta" className="mobile-menu" src={menu} alt="Open Navigation"/>
-                <nav>
+                <nav style={{marginLeft:'20px'}}>
                  <ul className="primary-nav">
                     <li ><a href="/sort">Sorting</a></li>
                     <li className="current"><a href="#">PathFinding</a></li>
