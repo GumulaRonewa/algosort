@@ -7,15 +7,24 @@ import Recursion from './recursion/Recursion';
 import Navigation from './Navigation';
 import { Switch, Route, Link, BrowserRouter } from "react-router-dom";
 
-
+const Home=()=>{
+  return(
+     <div className="Home">
+       <button className="buttonH" >
+         <li><a href="/sort">START</a></li>
+       </button>
+     </div>
+    )
+}
 const Main = () => {
   return (
   	<>
       <BrowserRouter>
      <Switch>
+     <Route path="/" component={Home} />
     <Route path="/path" component={PathfindingVisualizer} />
      <Route path="/Sort" component={Graph} />
-     <Route path="/recursion" component={Recursion} />
+     
 
   </Switch>
   </BrowserRouter>
@@ -32,25 +41,11 @@ function Run() {
     </>
   );
 }
-function Runner(){
-	 return (
-    <div>
-      <BrowserRouter>
-     <Switch>
-   
-          <Route  path="/" component={Run} />
-        
 
-  </Switch>
-  </BrowserRouter>
-
-    </div>
-  )
-}
 function App() {
   return (
   	<div>
-  	  <Runner />
+  	  <Run />
      </div>
   );
 }
