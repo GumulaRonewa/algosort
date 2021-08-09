@@ -21,9 +21,9 @@ const Main = () => {
   	<>
       <BrowserRouter>
      <Switch>
-     <Route path="/" component={Graph} />
-    <Route path="/path" component={PathfindingVisualizer} />
-     <Route path="/Sort" component={Graph} />
+     <Route exact path="/" component={Graph} />
+    <Route exact path="/path" component={PathfindingVisualizer} />
+     <Route exact path="/Sort" component={Graph} />
      
 
   </Switch>
@@ -32,20 +32,12 @@ const Main = () => {
   );
 };
 
-function Run() {
-  return (
-    <>
-     
-      <Main/>
 
-    </>
-  );
-}
 
 function App() {
   return (
   	<div>
-  	  <Run />
+  	  <Main />
      </div>
   );
 }
