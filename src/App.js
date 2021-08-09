@@ -11,7 +11,7 @@ const Home=()=>{
   return(
      <div className="Home">
        <button className="buttonH" >
-         <li><a href="/sort">START</a></li>
+         START
        </button>
      </div>
     )
@@ -21,7 +21,7 @@ const Main = () => {
   	<>
       <BrowserRouter>
      <Switch>
-     <Route path="/" component={Home} />
+     <Route path="/" component={Graph} />
     <Route path="/path" component={PathfindingVisualizer} />
      <Route path="/Sort" component={Graph} />
      
