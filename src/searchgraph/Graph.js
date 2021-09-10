@@ -154,7 +154,9 @@ mergeSort() {
                  <ul className="primary-nav">
                     <li  className="current"><a >Sorting</a></li>
                     <li><a href="/path">PathFinding</a></li>
-                    <li><a >Recursion</a></li>
+                    <li><a >Dynamic Programming</a></li>
+                    <li><a>Tree</a></li>
+
                 </ul>
                 </nav>
               </div>
