@@ -183,7 +183,9 @@ export default class PathfindingVisualizer extends Component {
                  <ul className="primary-nav">
                     <li ><a href="/sort">Sorting</a></li>
                     <li className="current"><a href="#">PathFinding</a></li>
-                    <li><a href="#">Recursion</a></li>
+                    <li><a href="#">Dynamic Programming</a></li> 
+                    <li><a href="#">Trees</a></li>
+
                 </ul>
                 </nav>
               </div>
